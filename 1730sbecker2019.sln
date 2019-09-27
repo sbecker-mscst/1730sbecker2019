@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sbecker1730ex1e", "sbecker1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sbecker17301f", "sbecker17301f\sbecker17301f.csproj", "{5BF4180C-0733-4976-82F6-CA370578DBDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sbecker17301g", "sbecker17301g\sbecker17301g.csproj", "{9699451C-295C-4394-B971-36135E9B14C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sbecker17302a1", "sbecker17302a1\sbecker17302a1.csproj", "{29435F7D-BF4E-4780-8CAE-89B8587CEE11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{5BF4180C-0733-4976-82F6-CA370578DBDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BF4180C-0733-4976-82F6-CA370578DBDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BF4180C-0733-4976-82F6-CA370578DBDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9699451C-295C-4394-B971-36135E9B14C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9699451C-295C-4394-B971-36135E9B14C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9699451C-295C-4394-B971-36135E9B14C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9699451C-295C-4394-B971-36135E9B14C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29435F7D-BF4E-4780-8CAE-89B8587CEE11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29435F7D-BF4E-4780-8CAE-89B8587CEE11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29435F7D-BF4E-4780-8CAE-89B8587CEE11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29435F7D-BF4E-4780-8CAE-89B8587CEE11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
