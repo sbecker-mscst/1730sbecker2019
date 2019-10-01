@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace sbecker17302a1
+namespace sbecker_1730ex2b
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace sbecker17302a1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Variables());
+            Application.Run(new frmMain());
         }
     }
 }
