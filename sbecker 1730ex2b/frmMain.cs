@@ -16,24 +16,28 @@ namespace sbecker_1730ex2b
         {
             InitializeComponent();
         }
-   
+
         private void calculate(object sender, EventArgs e)
         {
-            decimal amountAustralia = 10m;
-            decimal rateAustralia = 0.686253m;
+            decimal amountAustralia = Convert.ToDecimal(txtAmountAustralianDollar.Text);
+            decimal rateAustralia = Convert.ToDecimal(txtRateAustralia.Text);
             decimal usdAustralia = amountAustralia * rateAustralia;
+            txtUSDAustralia.Text = usdAustralia.ToString("0.00");
 
-            decimal amountYuan = 10m;
-            decimal rateChinese = 0.140401m;
+            decimal amountYuan = Convert.ToDecimal(txtYuan.Text);
+            decimal rateChinese = Convert.ToDecimal(txtRateChinese.Text);
             decimal usdChina = amountYuan * rateChinese;
+            txtUSDChina.Text = usdChina.ToString("0.00");
 
-            decimal amountCuban = 10m;
-            decimal rateCuba = 0.0377358m;
-            decimal usdCuba = amountCuban * rateCuba;
+            decimal amountCubanPeso = Convert.ToDecimal(txtCubanPeso.Text);
+            decimal rateCuba = Convert.ToDecimal(txtRateCuba.Text);
+            decimal usdCuba = amountCubanPeso * rateCuba;
+            txtUSDCuba.Text = usdCuba.ToString("0.00");
 
-            decimal amountGerman = 10m;
-            decimal rateGerman = 1.10504m;
-            decimal usdGerman = amountGerman * rateGerman;
+            decimal amountGermanDollar= Convert.ToDecimal(txtGermanDollar.Text);
+            decimal rateGerman = Convert.ToDecimal(txtRateGerman.Text);
+            decimal usdGerman = amountGermanDollar * rateGerman;
+            txtUSDGerman.Text = usdGerman.ToString("0.00");
 
         }
 
@@ -56,7 +60,12 @@ namespace sbecker_1730ex2b
 
         private void totalTextChanged(object sender, EventArgs e)
         {
-            decimal totalUSD = txtUSDAustralia + txtUSDChina + txtUSDCuba + txtUSDGerman;
 
+            txtTotalUSD.Text = (Convert.ToDecimal(txtUSDAustralia.Text)
+                + Convert.ToDecimal(txtUSDChina.Text)
+                + Convert.ToDecimal(txtUSDCuba.Text)
+                + Convert.ToDecimal(txtUSDGerman.Text)
+                ).ToString("0.00");
+        }
     }
 }
