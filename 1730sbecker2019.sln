@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sbecker 1730ex2b", "sbecker
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sbecker17302c1", "sbecker17302c1\sbecker17302c1.csproj", "{D7C3F444-D3B0-480B-86CF-04289605EB49}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sbecker17302d1", "sbecker17302d1\sbecker17302d1.csproj", "{45688317-9CDF-49E0-B01B-0B5D0C406865}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{D7C3F444-D3B0-480B-86CF-04289605EB49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7C3F444-D3B0-480B-86CF-04289605EB49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7C3F444-D3B0-480B-86CF-04289605EB49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45688317-9CDF-49E0-B01B-0B5D0C406865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45688317-9CDF-49E0-B01B-0B5D0C406865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45688317-9CDF-49E0-B01B-0B5D0C406865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45688317-9CDF-49E0-B01B-0B5D0C406865}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
