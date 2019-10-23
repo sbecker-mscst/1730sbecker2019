@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sbecker17302c1", "sbecker17
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sbecker17302d1", "sbecker17302d1\sbecker17302d1.csproj", "{45688317-9CDF-49E0-B01B-0B5D0C406865}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sbecker17302e1", "sbecker17302e1\sbecker17302e1.csproj", "{92259AE9-B686-4A4E-848F-B9BC91D03DC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sbecker17302e1UnitTests", "sbecker17302e1UnitTests\sbecker17302e1UnitTests.csproj", "{6A98F0A3-05D0-41F7-ADE5-748231DF79A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{45688317-9CDF-49E0-B01B-0B5D0C406865}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45688317-9CDF-49E0-B01B-0B5D0C406865}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45688317-9CDF-49E0-B01B-0B5D0C406865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92259AE9-B686-4A4E-848F-B9BC91D03DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92259AE9-B686-4A4E-848F-B9BC91D03DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92259AE9-B686-4A4E-848F-B9BC91D03DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92259AE9-B686-4A4E-848F-B9BC91D03DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A98F0A3-05D0-41F7-ADE5-748231DF79A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A98F0A3-05D0-41F7-ADE5-748231DF79A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A98F0A3-05D0-41F7-ADE5-748231DF79A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A98F0A3-05D0-41F7-ADE5-748231DF79A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
