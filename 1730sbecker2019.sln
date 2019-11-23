@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sbecker17302h2", "sbecker17
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sbecker17302h2.Tests", "sbecker17302h2.Tests\sbecker17302h2.Tests.csproj", "{C9D58C44-4701-431E-9EBD-4ECE13079195}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sbecker17303a1", "sbecker17303a1\sbecker17303a1.csproj", "{FBD09E68-BEE7-4118-A4FF-F1702F37F8F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sbecker17303a1UnitTests", "sbecker17303a1UnitTests\sbecker17303a1UnitTests.csproj", "{51632196-A882-4425-8F95-D1A52C544C23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,14 @@ Global
 		{C9D58C44-4701-431E-9EBD-4ECE13079195}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9D58C44-4701-431E-9EBD-4ECE13079195}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9D58C44-4701-431E-9EBD-4ECE13079195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBD09E68-BEE7-4118-A4FF-F1702F37F8F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD09E68-BEE7-4118-A4FF-F1702F37F8F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBD09E68-BEE7-4118-A4FF-F1702F37F8F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD09E68-BEE7-4118-A4FF-F1702F37F8F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51632196-A882-4425-8F95-D1A52C544C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51632196-A882-4425-8F95-D1A52C544C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51632196-A882-4425-8F95-D1A52C544C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51632196-A882-4425-8F95-D1A52C544C23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
